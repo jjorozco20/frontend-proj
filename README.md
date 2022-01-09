@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+          <Table.Footer>
+            <Table.Row>
+              <Table.HeaderCell colSpan='3'>
+                <Menu floated='right' pagination>
+                  <Menu.Item as='a' icon>
+                    <Icon name='chevron left' />
+                  </Menu.Item>
+                  <Menu.Item as='a'>1</Menu.Item>
+                  <Menu.Item as='a'>2</Menu.Item>
+                  <Menu.Item as='a'>3</Menu.Item>
+                  <Menu.Item as='a'>4</Menu.Item>
+                  <Menu.Item as='a' icon>
+                    <Icon name='chevron right' />
+                  </Menu.Item>
+                </Menu>
+              </Table.HeaderCell>
+            </Table.Row>
+          </Table.Footer>
