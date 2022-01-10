@@ -13,7 +13,7 @@ export default function UserTable(props) {
                         <Table.HeaderCell>Repos</Table.HeaderCell>
                     </Table.Row>
                 </Table.Header>
-                <Table.Body>
+                <Table.Body className='block'>
                     {props.usersList.map(user => <UserItem key={user.id} user={user} />)}
                 </Table.Body>
 

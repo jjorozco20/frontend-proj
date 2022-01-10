@@ -73,8 +73,8 @@ function App() {
       </div>
 
       <div className='usertable'>
-        <UserTable usersList={currentPosts} loading={isLoading} />
         <Pagination postPerPage={postPerPage} totalPosts={userList.length} paginate={paginate} />
+        <UserTable usersList={currentPosts} loading={isLoading} />
       </div>
     </div>
   );
