@@ -6,12 +6,13 @@ import UserTable from './components/UserTable';
 import Pagination from './components/Pagination';
 
 function App() {
-  const [oneUser, setOneUser] = useState([]);
+  // Hooks
+  const [oneUser, setOneUser] = useState([]); 
   const [userInput, setUserInput] = useState('');
   const [userList, setUserList] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postPerPage] = useState(10);
+  const [postPerPage] = useState(40);
 
   useEffect(() => {
     setIsLoading(true);
